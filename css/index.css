@@ -1,0 +1,38 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+/* .wrapper {
+    width: 80%;
+    height: 80%;
+    background-color: aliceblue;
+    position: relative;
+    top: 10%;
+    left: 10%;
+}
+.wrapper::before, .wrapper::after {
+    content: '';
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+    border: 1px solid black;
+}
+.wrapper::before {
+    width: 90%;
+}
+.wrapper::after {
+    height: 90%;
+} */
+
+canvas {
+    width: 80%;
+    height: 80vh;
+    background-color: #c4c4c4;
+    /* position: relative; */
+    /* top: 10%; */
+    /* margin: 6% 0; */
+    /* left: 10%; */
+}
