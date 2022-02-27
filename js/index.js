@@ -5,14 +5,14 @@ canvas.height = canvas.offsetHeight;
 let widthLine = 90 * canvas.width / 100;
 let heightLine = 90 * canvas.height / 100;
 
-ctx.beginPath();
-ctx.moveTo(canvas.width - widthLine, heightLine);
-ctx.lineTo(widthLine, heightLine);
-ctx.stroke();
-ctx.beginPath();
-ctx.moveTo(canvas.width - widthLine, heightLine);
-ctx.lineTo(canvas.width - widthLine, canvas.height - heightLine);
-ctx.stroke();
+// ctx.beginPath();
+// ctx.moveTo(canvas.width - widthLine, heightLine);
+// ctx.lineTo(widthLine, heightLine);
+// ctx.stroke();
+// ctx.beginPath();
+// ctx.moveTo(canvas.width - widthLine, heightLine);
+// ctx.lineTo(canvas.width - widthLine, canvas.height - heightLine);
+// ctx.stroke();
 function getRandomArbitrary() {
     return Math.floor(Math.random() * (11 - 2) + 2);
 }
